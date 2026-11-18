@@ -1,0 +1,23 @@
+# Restricted inputs and generated outputs
+data/
+outputs/
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.parquet
+*.zip
+*.qsf
+
+# Local configuration and credentials
+.env
+.env.*
+*.pem
+*.key
+.venv/
+
+# Python, Jupyter and operating system files
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.DS_Store
